@@ -304,75 +304,67 @@ params:
 
   # Achievements
   achievements:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Udemy - Docker and Kubernetes
+        url: https://www.udemy.com/certificate/UC-63f5bb16-2fb0-4de2-88d9-86587db63cc3/
+        image: https://udemy-certificate.s3.amazonaws.com/image/UC-63f5bb16-2fb0-4de2-88d9-86587db63cc3.jpg
+      - title: Udemy - NestJS Microservices
+        url: https://www.udemy.com/certificate/UC-eddca9d9-130a-4d23-87d6-4323b75e4607/
+        image: https://udemy-certificate.s3.amazonaws.com/image/UC-eddca9d9-130a-4d23-87d6-4323b75e4607.jpg
+      - title: Ultimate Courses - Angular Fundamental
+        url: https://app.ultimatecourses.com/course/angular-fundamentals
+        image: /achievements/angular-fundamental-1.png
+      - title: Ultimate Courses - Typescript Masterclass
+        url: https://app.ultimatecourses.com/course/typescript-masterclass
+        image: /achievements/typescript-master-class-1.png
 
   # projects
   projects:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
-        featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
-        featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+      - title: Better to Practice
+        content: Boilerplate for Getting Started with Frameworks
+        image: 'https://avatars.githubusercontent.com/u/122074119'
         badges:
           - "Django"
-          - "Bootstrap"
+          - "Flask"
+          - "Golang"
+          - "Echo"
+          - "Gin"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/BetterToPractice
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: Agung Learns
+        content: What I learn, I will publish to this organization along with its implementation.
+        image: 'https://avatars.githubusercontent.com/u/139783415'
         badges:
-          - "Hugo"
-          - "Bootstrap"
           - "Javascript"
+          - "Golang"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/agung-learns
+
+      - title: Raja Ongkir Go
+        content: Get Calculation Indonesian Shipment (Golang / Unofficial)
+        image: /projects/rajaongkir.png
+        badges:
+          - "Golang"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/agung96tm/rajaongkir-go
+
+      - title: Adonis Midtrans
+        content: Midtrans Payment Gateway for Adonis Framework
+        image: /projects/midtrans.png
+        badges:
+          - "AdonisJS"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/agung96tm/adonis-midtrans
 
   #Contact
   contact:
@@ -380,7 +372,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:agung.96tm@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
