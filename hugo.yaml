@@ -164,7 +164,7 @@ params:
       - job: "Backend Developer"
         company: "Gapai"
         companyUrl: "https://gapai.id/"
-        date: "Feb 2022 - present"
+        date: "Feb 2024 - present"
         featuredLink:
           enable: true
           name: "View Website"
